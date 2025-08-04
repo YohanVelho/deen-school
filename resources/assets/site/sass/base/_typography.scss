@@ -1,0 +1,46 @@
+html {
+    font-size: 62.5%;  // 10px
+
+    @include mobile{
+        font-size: 50%; // 8px
+    }
+}
+
+html, body{
+    width: 100%;
+    font-family: $default-font;
+    color: $default-font-color;
+}
+
+body{
+    font-size: $default-font-size;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: $default-title-font;
+    color: $default-title-font-color;
+    font-size: $default-title-font-size;
+}
+
+.text{
+
+    &--ligther{
+        font-weight: lighter;
+    }
+
+    &--regular{
+        font-weight: normal;
+    }
+
+    &--bold{
+        font-weight: bold;
+    }
+
+    &--primary{
+        color: $primary-color;
+    }
+
+    &--secondary{
+        color: $secondary-color;
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "/assets/site/js/main.js": "/assets/site/js/main.js",
+    "/assets/site/css/main.css": "/assets/site/css/main.css",
+    "/assets/admin/css/all.css": "/assets/admin/css/all.css",
+    "/assets/site/js/pages/home.js": "/assets/site/js/pages/home.js",
+    "/assets/site/css/vendor.css": "/assets/site/css/vendor.css",
+    "/assets/site/js/vendor.js": "/assets/site/js/vendor.js",
+    "/assets/admin/css/vendor.css": "/assets/admin/css/vendor.css",
+    "/assets/admin/js/vendor.js": "/assets/admin/js/vendor.js",
+    "/assets/admin/js/all.js": "/assets/admin/js/all.js"
+}

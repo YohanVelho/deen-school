@@ -1,0 +1,80 @@
+/**
+ * Arquivo base do SCSS
+ * @version 1.1.0
+ */
+
+/* ============= BASE ============= */
+
+@import "base/variables";
+@import "base/mixins";
+@import "base/reset";
+@import "base/typography";
+
+/* ============= FONTS ============ */
+
+@import "fonts/fonts";
+
+/* =========== SECTIONS =========== */
+
+@import "sections/header";
+@import "sections/footer";
+
+/* ============ PAGES ============= */
+
+@import "pages/home";
+
+/* ========= COMPONENTES ========== */
+
+@import "components/buttons";
+@import "components/cards";
+@import "components/form";
+
+
+.cms-bar{
+    height: 50px;
+
+    &__row{
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        background: #9700f6;
+        height: 50px;
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+
+        .text{
+            color: #FFF;
+            margin-right: 15px;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        .btn{
+            background: #FFF;
+            padding: 5px 20px;
+            border-radius: 15px;
+            margin-right: 15px;
+            font-size: 14px;
+            font-weight: bold;
+            text-decoration: none;
+            color: #000;
+
+            &:hover{
+                background: #000;
+                color: #FFF;
+            }
+        }
+    }
+}
+
+
+@include mobile{
+    .cms-bar__row{
+        .text{
+            display: none;
+        }
+    }
+}
